@@ -1,0 +1,95 @@
+/*
+Theme Name:     Twenty Seventeen Child Theme
+Theme URI:      http://host.dev
+Description:    Twenty Seventeen Child Theme
+Author:         Soner Agirbas
+Author URI:     https://someUrl
+Template:       twentyseventeen
+Version:        1.0
+*/
+#responsive-menu-additional-content .children li {
+    position: relative;
+    left: 20px;
+}
+
+li.cat-item, li.snippet_categories {
+    color: #222;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+li.cat-item a {
+    color: #222;
+    font-weight: 400;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/* Post type archive manually created breadcrumbs */
+ul.catlist li {
+    display: inline;
+    /* margin-right: 10px; */
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\27A4";
+  font-size: 18px;
+  color: black;
+  display: inline-block;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
+/* li.snippet_categories { */
+/*     padding: 0 2em; */
+/* } */
+
+/* li.snippet_categories > ul { */
+/*   height: 400px; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   flex-wrap: wrap; */
+/*   padding: 0 2em; */
+/* } */
+
+/* li.snippet_categories > ul li { */
+/*   height: 400px; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   flex-wrap: wrap; */
+/*   padding: 0 2em; */
+/* } */
+
+.select2-selection__rendered {
+    line-height: 40px !important;
+}
+.select2-container .select2-selection--single {
+    height: 45px !important;
+}
+.select2-selection__arrow {
+    height: 43px !important;
+}
+
+form.searchandfilter li {
+    margin-bottom: 10px;
+}

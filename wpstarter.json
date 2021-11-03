@@ -1,0 +1,9 @@
+{
+    "register-theme-folder": true,
+    "templates-dir": "./custom-templates",
+    "prevent-overwrite": [
+        ".gitignore",
+        "public/wp-config.php",
+        "public/index.php"
+    ]
+}
