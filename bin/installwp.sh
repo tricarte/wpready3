@@ -53,4 +53,6 @@ wp --skip-plugins option update piklist_wp_helpers --format=json '{"admin_color_
 
 wp --skip-plugins option update rest-api-toolbox-settings-core --format=json '{"require-authentication|\/wp\/v2\/posts":"1","require-authentication|\/wp\/v2\/pages":"1","require-authentication|\/wp\/v2\/users":"1","require-authentication|\/wp\/v2\/media":"1","require-authentication|\/wp\/v2\/categories":"1","require-authentication|\/wp\/v2\/tags":"1","require-authentication|\/wp\/v2\/comments":"1","require-authentication|\/wp\/v2\/taxonomies":"1","require-authentication|\/wp\/v2\/types":"1","require-authentication|\/wp\/v2\/statuses":"1","require-authentication|\/wp\/v2\/settings":"1"}'
 
+wp --skip-plugins option update duplicate_post_show_notice 0
+
 wp --skip-plugins rewrite flush
