@@ -21,11 +21,11 @@
         "wpackagist-plugin/safe-svg":"^1.9.9",
         "wpackagist-plugin/passwords-evolved":"^1.3.0",
         "wpackagist-plugin/better-search-replace":"^1.3.4",
-        "wpackagist-plugin/admin-menu-search":"^1.2",
         "wpackagist-plugin/wayfinder":"^1.0.7",
         "wpackagist-plugin/rest-api-toolbox":"^1.4.3",
         "wpackagist-plugin/icon-block":"^1.0.0",
-        "wpackagist-plugin/gutenberg":"*"
+        "wpackagist-plugin/gutenberg":"*",
+        "tricarte/admin-menu-search":"*"
     },
     "config": {
         "optimize-autoloader": true
@@ -64,8 +64,11 @@
                     "reference":"master"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tricarte/admin-menu-search"
         }
-
     ],
     "scripts": {
         "post-install-cmd": [

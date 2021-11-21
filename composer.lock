@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bc8e1f528a4545b10b5274e153ef774",
+    "content-hash": "bdf7022302044342c60615daf7ca9529",
     "packages": [
         {
             "name": "composer/installers",
@@ -375,6 +375,41 @@
             "time": "2020-10-24T10:57:07+00:00"
         },
         {
+            "name": "tricarte/admin-menu-search",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tricarte/admin-menu-search.git",
+                "reference": "f1de1e22bc2dc98c4b1a5fb2d7a077e88a7c7106"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tricarte/admin-menu-search/zipball/f1de1e22bc2dc98c4b1a5fb2d7a077e88a7c7106",
+                "reference": "f1de1e22bc2dc98c4b1a5fb2d7a077e88a7c7106",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tricarte"
+                }
+            ],
+            "description": "Clone of admin-menu-search plugin. Fixes the hardcoded wp-content directory URL.",
+            "homepage": "https://github.com/tricarte/admin-menu-search",
+            "support": {
+                "source": "https://github.com/tricarte/admin-menu-search/tree/main",
+                "issues": "https://github.com/tricarte/admin-menu-search/issues"
+            },
+            "time": "2021-11-21T13:48:57+00:00"
+        },
+        {
             "name": "wecodemore/wpstarter",
             "version": "3.0.0-beta.7",
             "source": {
@@ -458,24 +493,6 @@
                 "source": "https://github.com/wecodemore/wpstarter"
             },
             "time": "2020-12-17T08:47:23+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/admin-menu-search",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/admin-menu-search/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/admin-menu-search.zip?timestamp=1628860834"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/admin-menu-search/"
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
