@@ -55,4 +55,6 @@ wp --skip-plugins option update rest-api-toolbox-settings-core --format=json '{"
 
 wp --skip-plugins option update duplicate_post_show_notice 0
 
+wp --skip-plugins user meta update 1 dismissed_wp_pointers "piklist_demos,custom-post-type-permalinks-settings"
+
 wp --skip-plugins rewrite flush
