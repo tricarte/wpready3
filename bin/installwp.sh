@@ -58,4 +58,7 @@ wp --skip-plugins option update rest-api-toolbox-settings-core --format=json '{"
 
 wp --skip-plugins user meta update 1 dismissed_wp_pointers "piklist_demos,custom-post-type-permalinks-settings"
 
+CPTP_VERSION=$(wp --skip-plugins plugin get custom-post-type-permalinks --format=table --field=version)
+wp --skip-plugins option update cptp_permalink_checked "$CPTP_VERSION" --autoload=yes
+
 wp --skip-plugins rewrite flush
