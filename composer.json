@@ -25,6 +25,7 @@
         "wpackagist-plugin/rest-api-toolbox":"^1.4.3",
         "wpackagist-plugin/icon-block":"^1.0.0",
         "wpackagist-plugin/gutenberg":"*",
+        "wpackagist-theme/tt1-blocks":"^0.4.7",
         "tricarte/admin-menu-search":"*"
     },
     "config": {

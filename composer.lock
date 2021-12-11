@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdf7022302044342c60615daf7ca9529",
+    "content-hash": "c39db09a09ce502b029383ccc255b6bd",
     "packages": [
         {
             "name": "composer/installers",
@@ -850,6 +850,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-helpers/"
+        },
+        {
+            "name": "wpackagist-theme/tt1-blocks",
+            "version": "0.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/tt1-blocks/",
+                "reference": "0.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/tt1-blocks.0.4.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/tt1-blocks/"
         }
     ],
     "packages-dev": [],
