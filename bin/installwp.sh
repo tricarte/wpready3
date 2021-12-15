@@ -62,3 +62,6 @@ CPTP_VERSION=$(wp --skip-plugins plugin get custom-post-type-permalinks --format
 wp --skip-plugins option update cptp_permalink_checked "$CPTP_VERSION" --autoload=yes
 
 wp --skip-plugins rewrite flush
+
+# Install images
+wp --skip-plugins media import ./sample-images/*
