@@ -637,15 +637,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "4.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/4.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -799,7 +799,7 @@
         },
         {
             "name": "wpackagist-plugin/wayfinder",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wayfinder/",
