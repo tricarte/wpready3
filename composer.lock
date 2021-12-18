@@ -853,15 +853,15 @@
         },
         {
             "name": "wpackagist-theme/tt1-blocks",
-            "version": "0.4.7",
+            "version": "0.4.8",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/tt1-blocks/",
-                "reference": "0.4.7"
+                "reference": "0.4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/tt1-blocks.0.4.7.zip"
+                "url": "https://downloads.wordpress.org/theme/tt1-blocks.0.4.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
