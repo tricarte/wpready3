@@ -30,6 +30,13 @@ wp option update blogdescription "WP Test Site"
 wp option update ping_sites ""
 wp option update rss_use_excerpt 1
 
+# Disable comments
+wp option update default_pingback_flag 0
+wp option update default_ping_status 0
+wp option update default_comment_status 0
+wp option update comment_registration 1
+wp option update close_comments_for_old_posts 1
+
 wp --skip-plugins plugin activate \
     safe-svg \
     custom-post-type-permalinks \
