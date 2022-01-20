@@ -29,7 +29,8 @@
         "tricarte/admin-menu-search":"*"
     },
     "config": {
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": true
     },
     "extra": {
         "installer-paths": {
