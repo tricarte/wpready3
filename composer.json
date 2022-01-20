@@ -29,7 +29,12 @@
         "tricarte/admin-menu-search":"*"
     },
     "config": {
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true,
+            "wecodemore/wpstarter": true
+        }
     },
     "extra": {
         "installer-paths": {
