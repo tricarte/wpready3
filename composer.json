@@ -26,6 +26,7 @@
         "wpackagist-plugin/icon-block":"^1.0.0",
         "wpackagist-plugin/gutenberg":"*",
         "wpackagist-theme/tt1-blocks":"^0.4.7",
+        "wpackagist-plugin/block-xray-attributes":"^1.1.1",
         "tricarte/admin-menu-search":"*"
     },
     "config": {
