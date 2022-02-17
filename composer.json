@@ -27,6 +27,7 @@
         "wpackagist-plugin/gutenberg":"*",
         "wpackagist-theme/tt1-blocks":"^0.4.7",
         "wpackagist-plugin/block-xray-attributes":"^1.1.1",
+        "wpackagist-plugin/rollback-update-failure":"^1.3.2",
         "tricarte/admin-menu-search":"*"
     },
     "config": {

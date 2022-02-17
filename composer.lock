@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c39db09a09ce502b029383ccc255b6bd",
+    "content-hash": "b0cbf231ad713302b95b38c616417e66",
     "packages": [
         {
             "name": "composer/installers",
@@ -582,6 +582,24 @@
             "homepage": "https://wordpress.org/plugins/better-search-replace/"
         },
         {
+            "name": "wpackagist-plugin/block-xray-attributes",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/block-xray-attributes/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/block-xray-attributes.1.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/block-xray-attributes/"
+        },
+        {
             "name": "wpackagist-plugin/bulk-delete",
             "version": "6.0.2",
             "source": {
@@ -655,15 +673,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "12.5.4",
+            "version": "12.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/12.5.4"
+                "reference": "tags/12.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.6.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -778,6 +796,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rest-api-toolbox/"
+        },
+        {
+            "name": "wpackagist-plugin/rollback-update-failure",
+            "version": "1.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
+                "reference": "tags/1.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.1.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rollback-update-failure/"
         },
         {
             "name": "wpackagist-plugin/safe-svg",
