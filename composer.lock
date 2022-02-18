@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0cbf231ad713302b95b38c616417e66",
+    "content-hash": "e617a914800771e6abc73713713523ca",
     "packages": [
         {
             "name": "composer/installers",
@@ -726,24 +726,6 @@
             "homepage": "https://wordpress.org/plugins/passwords-evolved/"
         },
         {
-            "name": "wpackagist-plugin/piklist",
-            "version": "1.0.12",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/piklist/",
-                "reference": "tags/1.0.12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/piklist.1.0.12.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/piklist/"
-        },
-        {
             "name": "wpackagist-plugin/pre-publish-checklist",
             "version": "1.1.1",
             "source": {
@@ -868,24 +850,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/widget-shortcode/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-helpers",
-            "version": "1.17.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-helpers/",
-                "reference": "tags/1.17.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-helpers.1.17.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-helpers/"
         },
         {
             "name": "wpackagist-theme/tt1-blocks",

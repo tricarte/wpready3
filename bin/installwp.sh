@@ -48,7 +48,6 @@ wp --skip-plugins plugin activate \
     bulk-delete \
     passwords-evolved \
     better-search-replace \
-    wp-helpers \
     admin-menu-search \
     wayfinder \
     rest-api-toolbox \

@@ -12,8 +12,6 @@
         "wpackagist-plugin/custom-post-type-permalinks":"^3.4.4",
         "wpackagist-plugin/custom-post-type-ui":"^1.9.2",
         "wpackagist-plugin/duplicate-post":"^4.1.2",
-        "wpackagist-plugin/piklist":"^1.0.11",
-        "wpackagist-plugin/wp-helpers":"^1.17.0",
         "wpackagist-plugin/pre-publish-checklist":"^1.1.1",
         "wpackagist-plugin/query-monitor":"^3.7.1",
         "wpackagist-plugin/widget-shortcode":"^0.3.5",
