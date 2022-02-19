@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e617a914800771e6abc73713713523ca",
+    "content-hash": "14ac612f1fd3ab9e1c89b1d70b403bdc",
     "packages": [
         {
             "name": "composer/installers",
@@ -778,6 +778,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rest-api-toolbox/"
+        },
+        {
+            "name": "wpackagist-plugin/reveal-ids-for-wp-admin-25",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/reveal-ids-for-wp-admin-25/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/reveal-ids-for-wp-admin-25.1.5.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/reveal-ids-for-wp-admin-25/"
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
