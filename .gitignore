@@ -1,6 +1,6 @@
 # Project specific
 wp-cli.yml
-public/
+# public/
 /.env.example
 
 # Composer
