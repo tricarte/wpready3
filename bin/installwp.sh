@@ -2,16 +2,17 @@
 # wpstarter copies custom-templates/.env.example to the root at installation.
 # So don't git add the .env.example file at the project root.
 mv .env.example .env
-replace -s directory-basename "${PWD##*/}" -- .env
-replace -s wp-home "http://${PWD##*/}.test" -- .env
+SITENAME=${PWD##*/}
+replace -s directory-basename "$SITENAME" -- .env
+replace -s wp-home "http://${SITENAME}.test" -- .env
 
 wp db create
 
 wp core install \
-    --url="${PWD##*/}.test" \
-    --title="${PWD##*/}"  \
-    --admin_user="usr${PWD##*/}" \
-    --admin_password="pss${PWD##*/}"  \
+    --url="${SITENAME}.test" \
+    --title="${SITENAME}"  \
+    --admin_user="usr${SITENAME}" \
+    --admin_password="pss${SITENAME}"  \
     --admin_email=info@example.com  \
     --skip-email
 
@@ -73,4 +74,7 @@ wp --skip-plugins option update cptp_permalink_checked "$CPTP_VERSION" --autoloa
 wp --skip-plugins rewrite flush
 
 # Install images
-wp media import ./sample-images/* --user="usr${PWD##*/}"
+wp media import ./sample-images/* --user="usr${SITENAME}"
+
+# Create link to adminer that can be accessible from http://site/adminer
+ln -rs ./vendor/dg/adminer-custom/ ./public/adminer

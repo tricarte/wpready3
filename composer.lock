@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14ac612f1fd3ab9e1c89b1d70b403bdc",
+    "content-hash": "79fbc3ac4d60ca6e04f74559246b6a2c",
     "packages": [
         {
             "name": "composer/installers",
@@ -158,21 +158,53 @@
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
-            "name": "johnpbloch/wordpress",
-            "version": "5.9.0",
+            "name": "dg/adminer-custom",
+            "version": "v1.28.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74"
+                "url": "https://github.com/dg/adminer-custom.git",
+                "reference": "65cb7d1fc0249375064aaeeafd265141428fe7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6ada7243daf56881a1a09b5fbba60b993e38fa74",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/65cb7d1fc0249375064aaeeafd265141428fe7e1",
+                "reference": "65cb7d1fc0249375064aaeeafd265141428fe7e1",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Customization for Adminer, the best database management tool written in PHP.",
+            "keywords": [
+                "database",
+                "elasticsearch",
+                "mongodb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "postgresql",
+                "sqlite"
+            ],
+            "support": {
+                "source": "https://github.com/dg/adminer-custom/tree/v1.28.1"
+            },
+            "time": "2021-09-16T10:15:05+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "5.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/37734d678aac2d8cae73271583e638eaa82823d2",
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.0",
+                "johnpbloch/wordpress-core": "5.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -201,20 +233,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:11:11+00:00"
+            "time": "2022-02-22T15:31:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f"
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/51241ed9138dd1fb552f6b85fc2025e6135fc03f",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +254,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.0"
+                "wordpress/core-implementation": "5.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -249,7 +281,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:28:49+00:00"
+            "time": "2022-02-22T15:31:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -673,15 +705,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "12.6.0",
+            "version": "12.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/12.6.0"
+                "reference": "tags/12.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -817,15 +849,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "1.9.9",
+            "version": "1.9.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/1.9.9"
+                "reference": "tags/1.9.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.10.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
