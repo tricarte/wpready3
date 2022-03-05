@@ -30,3 +30,9 @@ add_action( 'template_redirect', function() {
         die;
     }
 } );
+
+// Add menu link to the playground
+function playground_menu_link() {
+    add_menu_page( 'Playground', 'Playground', 'edit_posts', WP_HOME . '/playground', '', 'dashicons-editor-code', 22 );
+}
+add_action( 'admin_menu', 'playground_menu_link' );
