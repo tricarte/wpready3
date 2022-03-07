@@ -26,7 +26,7 @@ add_filter( 'query_vars', function( $query_vars ) {
 add_action( 'template_redirect', function() {
     $playground = intval( get_query_var( 'playground' ) );
     if ( $playground ) {
-        echo 'This is your playground when tinkering with WP.';
+        echo 'Edit plugins/wpready-playground/wpready-playground.php file to modify this content.';
         die;
     }
 } );
