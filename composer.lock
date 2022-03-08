@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea0ba626fd90a4bdf381dfee8707c06f",
+    "content-hash": "0d5825531486d0fb9f47393f0f5312cc",
     "packages": [
         {
             "name": "composer/installers",
@@ -918,6 +918,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/widget-shortcode/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mailhog-smtp",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mailhog-smtp/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mailhog-smtp.zip?timestamp=1627489338"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mailhog-smtp/"
         },
         {
             "name": "wpackagist-theme/tt1-blocks",
