@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "749e19b5613512ae40f73a4bddae7229",
+    "content-hash": "d52e65558de86b0696b824c319874fbe",
     "packages": [
         {
             "name": "composer/installers",
@@ -846,6 +846,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/reveal-ids-for-wp-admin-25/"
+        },
+        {
+            "name": "wpackagist-plugin/rewrite-rules-inspector",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rewrite-rules-inspector/",
+                "reference": "tags/1.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.1.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
