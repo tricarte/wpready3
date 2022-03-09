@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d5825531486d0fb9f47393f0f5312cc",
+    "content-hash": "749e19b5613512ae40f73a4bddae7229",
     "packages": [
         {
             "name": "composer/installers",
@@ -650,6 +650,24 @@
             "homepage": "https://wordpress.org/plugins/bulk-delete/"
         },
         {
+            "name": "wpackagist-plugin/clarity-ad-blocker",
+            "version": "1.3.220307",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/clarity-ad-blocker/",
+                "reference": "tags/1.3.220307"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/clarity-ad-blocker.1.3.220307.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/clarity-ad-blocker/"
+        },
+        {
             "name": "wpackagist-plugin/custom-post-type-permalinks",
             "version": "3.4.5",
             "source": {
@@ -705,15 +723,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "12.7.0",
+            "version": "12.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/12.7.0"
+                "reference": "tags/12.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
