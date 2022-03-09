@@ -27,6 +27,13 @@ add_action( 'template_redirect', function() {
     $playground = intval( get_query_var( 'playground' ) );
     if ( $playground ) {
         echo 'Edit plugins/wpready-playground/wpready-playground.php file to modify this content.';
+
+?>
+<h2>Here are all the constants that are defined:</h2>
+    <pre><?php
+        print_r(get_defined_constants());
+?>
+    </pre><?php
         die;
     }
 } );
