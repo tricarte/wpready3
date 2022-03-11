@@ -1,0 +1,4 @@
+--regex-PHP=/^do_action(_deprecated|_ref_array)?\s*\(\s*['"]([a-z_]+)['"]\s*.*$/action_\1/A,action/
+--regex-PHP=/^add_action\s*\(\s*['"]([a-z_]+)['"]\s*.*$/alistener_\1/L,alistener/
+--regex-PHP=/^apply_filters(_deprecated|_ref_array)?\s*\(\s*['"]([a-z_]+)['"]\s*.*$/filter_\1/R,filter/
+--regex-PHP=/^add_filter\s*\(\s*['"]([a-z_]+)['"]\s*.*$/flistener_\1/E,flistener/
