@@ -16,6 +16,8 @@ wp core install \
     --admin_email=info@example.com  \
     --skip-email
 
+wp user update 1 --display_name="John Doe"
+
 wp option update permalink_structure "/%category%/%postname%/"
 
 wp term update category 1 --slug=general --name=General
