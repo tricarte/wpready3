@@ -82,7 +82,7 @@ wp --skip-plugins option update cptp_permalink_checked "$CPTP_VERSION" --autoloa
 wp --skip-plugins rewrite flush
 
 # Install images
-wp media import ./sample-images/* --user="usr${SITENAME}"
+wp --skip-plugins media import ./sample-images/* --user="usr${SITENAME}"
 
 # Create link to adminer that can be accessible from http://site/adminer
 ln -rs ./vendor/dg/adminer-custom/ ./public/adminer
