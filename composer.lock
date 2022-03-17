@@ -723,15 +723,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "12.7.2",
+            "version": "12.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/12.7.2"
+                "reference": "tags/12.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.7.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
