@@ -63,7 +63,6 @@ wp --skip-plugins plugin activate \
     wp-mailhog-smtp \
     clarity-ad-blocker \
     rewrite-rules-inspector \
-    stop-user-enumeration \
     apcu-manager \
     gutenberg
 

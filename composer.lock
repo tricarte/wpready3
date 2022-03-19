@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ac899e69041905d1aa7ce3147b13f0f",
+    "content-hash": "4cae683213a920551e51bfaf531897dc",
     "packages": [
         {
             "name": "composer/installers",
@@ -936,24 +936,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/show-hooks/"
-        },
-        {
-            "name": "wpackagist-plugin/stop-user-enumeration",
-            "version": "1.4.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/stop-user-enumeration/",
-                "reference": "tags/1.4.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stop-user-enumeration.1.4.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/stop-user-enumeration/"
         },
         {
             "name": "wpackagist-plugin/wayfinder",
