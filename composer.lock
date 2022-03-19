@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2a7beb1a0a9ac63464443c5dadc9dba",
+    "content-hash": "3ac899e69041905d1aa7ce3147b13f0f",
     "packages": [
         {
             "name": "composer/installers",
@@ -596,6 +596,24 @@
             "time": "2021-11-25T15:51:49+00:00"
         },
         {
+            "name": "wpackagist-plugin/apcu-manager",
+            "version": "3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/apcu-manager/",
+                "reference": "tags/3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/apcu-manager.3.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/apcu-manager/"
+        },
+        {
             "name": "wpackagist-plugin/better-search-replace",
             "version": "1.3.4",
             "source": {
@@ -687,15 +705,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.11.0"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.zip?timestamp=1647615885"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -723,15 +741,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "12.8.0",
+            "version": "12.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/12.8.0"
+                "reference": "tags/12.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.12.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -867,15 +885,15 @@
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
-                "reference": "tags/1.3.2"
+                "reference": "tags/1.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.1.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.1.3.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
