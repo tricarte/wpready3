@@ -4,12 +4,19 @@
 mv .env.example .env
 SITENAME=${PWD##*/}
 replace -s directory-basename "$SITENAME" -- .env
-replace -s wp-home "http://${SITENAME}.test" -- .env
+
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    replace -s wp-home "http://${SITENAME}.test" -- .env
+    URL="$SITENAME.test"
+else
+    replace -s wp-home "https://${SITENAME}" -- .env
+    URL="$SITENAME"
+fi
 
 wp db create
 
 wp core install \
-    --url="${SITENAME}.test" \
+    --url="$URL" \
     --title="${SITENAME}"  \
     --admin_user="usr${SITENAME}" \
     --admin_password="pss${SITENAME}"  \
