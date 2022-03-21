@@ -24,7 +24,7 @@ wp core install \
     --skip-email
 
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
-    if [[ -d "/home/$(whoami)/sites/$SITENAME/public/content" ]]
+    if [[ -d "/home/$(whoami)/sites/$SITENAME/public/content" ]]; then
         chmod -R o+w "/home/$(whoami)/sites/$SITENAME/public/content"
     fi
 fi
