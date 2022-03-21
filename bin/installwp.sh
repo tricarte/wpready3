@@ -23,6 +23,12 @@ wp core install \
     --admin_email=info@example.com  \
     --skip-email
 
+if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
+    if [[ -d "/home/$(whoami)/sites/$SITENAME/public/content" ]]
+        chmod -R o+w "/home/$(whoami)/sites/$SITENAME/public/content"
+    fi
+fi
+
 wp user update 1 --display_name="John Doe"
 
 wp option update permalink_structure "/%category%/%postname%/"
