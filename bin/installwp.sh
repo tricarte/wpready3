@@ -6,6 +6,27 @@ SITENAME=${PWD##*/}
 replace -s directory-basename "$SITENAME" -- .env
 
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    ADMIN_USER="usr${SITENAME}"
+    ADMIN_PASS="pss${SITENAME}"
+else
+    ADMIN_USER="$SITENAME-$RANDOM"
+    ADMIN_PASS=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13)
+
+    # Create separate db user and password, change .env file.
+    eval $(grep DB_USER .env)
+    eval $(grep DB_PASSWORD .env)
+
+    NEW_DB_USER="$SITENAME-$RANDOM"
+    NEW_DB_PASSWORD=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13)
+    mysql -u $DB_USER -p$DB_PASSWORD -e"CREATE USER '$NEW_DB_USER'@'localhost' IDENTIFIED BY '$NEW_DB_PASSWORD';"
+    mysql -u $DB_USER -p$DB_PASSWORD -e"GRANT ALL PRIVILEGES ON \`$SITENAME\`.* TO '$NEW_DB_USER'@'localhost';"
+
+    # Now change .env with new values
+    replace -s DB_USER=root "DB_USER=$NEW_DB_USER" -- .env
+    replace -s DB_PASSWORD=vagrant "DB_PASSWORD=$NEW_DB_PASSWORD" -- .env
+fi
+
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
     replace -s wp-home "http://${SITENAME}.test" -- .env
     URL="$SITENAME.test"
 else
@@ -18,11 +39,12 @@ wp db create
 wp core install \
     --url="$URL" \
     --title="${SITENAME}"  \
-    --admin_user="usr${SITENAME}" \
-    --admin_password="pss${SITENAME}"  \
+    --admin_user="$ADMIN_USER" \
+    --admin_password="$ADMIN_PASS"  \
     --admin_email=info@example.com  \
     --skip-email
 
+# If this is a server, change fs permissions accordingly.
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     if [[ -d "/home/$(whoami)/sites/$SITENAME/public/content" ]]; then
         chmod -R o+w "/home/$(whoami)/sites/$SITENAME/public/content"
@@ -42,7 +64,7 @@ wp option update page_on_front 2
 wp option update page_for_posts 5
 wp option update show_on_front "page"
 wp option update timezone_string "Europe/Istanbul"
-wp option update blogdescription "WP Test Site"
+wp option update blogdescription "WP Test Site" # Tagline
 wp option update ping_sites ""
 wp option update rss_use_excerpt 1
 
@@ -56,29 +78,33 @@ wp option update close_comments_for_old_posts 1
 wp --skip-plugins plugin activate \
     safe-svg \
     custom-post-type-permalinks \
-    custom-post-type-ui \
     duplicate-post \
     pre-publish-checklist \
-    query-monitor \
     widget-shortcode \
-    bulk-delete \
     passwords-evolved \
-    better-search-replace \
     admin-menu-search \
-    wayfinder \
     rest-api-toolbox \
     icon-block \
-    block-xray-attributes \
     rollback-update-failure \
     reveal-ids-for-wp-admin-25 \
-    wpready-playground \
-    show-hooks \
-    wp-mailhog-smtp \
     clarity-ad-blocker \
-    rewrite-rules-inspector \
     apcu-manager \
     surge \
     gutenberg
+
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    wp --skip-plugins plugin activate \
+        query-monitor \
+        custom-post-type-ui \
+        bulk-delete \
+        better-search-replace \
+        wayfinder \
+        block-xray-attributes \
+        wpready-playground \
+        show-hooks \
+        wp-mailhog-smtp \
+        rewrite-rules-inspector
+fi
 
 # wp --skip-plugins option update piklist_wp_helpers --format=json '{"admin_color_scheme":"","mail_from":"","mail_from_name":"","maintenance_mode":"false","maintenance_mode_message":"","private_site":"false","redirect_to_home":"true","notice_admin":"false","admin_message":"","notice_front":"false","logged_in_front_message":"","notice_user_type":"all","notice_browser_type":"all","notice_color":"danger","all_options":"true","remove_screen_options":"","disable_uprade_notifications":[""],"disallow_file_edit":"","link_manager":"","show_ids":"true","show_featured_image":"","remove_dashboard_widgets_new":{"dashboard_widgets":["dashboard_right_now","dashboard_quick_press","dashboard_primary"]},"hide_admin_bar":"","show_admin_bar_components":["comments","wp-logo"],"change_howdy":"","login_image":[""],"login_background":"","disable_emojis":"true","disable_visual_editor":"false","default_editor":["tinymce"],"excerpt_wysiwyg":"","excerpt_box_height":"","require_featured_image":[""],"screen_layout_columns_post":"default","disable_autosave":"","edit_posts_per_page":"","revisions_to_save":"0","xml_rpc":"true","xml_rpc_methods":[""],"excerpt_length_type":["words"],"excerpt_length":"","private_title_format":"","protected_title_format":"","disable_feeds":"true","delay_feed":{"delay_feed_num":"","delay_feed_time":"minute"},"featured_image_in_feed":"","search_post_types":[""],"redirect_404":{"redirect_to_404":"-1","redirect_status":""},"enhanced_classes":"","clean_header":["wp_generator","feed_links","feed_links_extra","rsd_link","wlwmanifest_link","adjacent_posts_rel_link_wp_head"],"remove_widgets_new":{"widgets":[""]},"shortcodes_in_widgets":"","comments_open_pages":"true","make_clickable":"true","disable_self_ping":"true","image_default_align":"left","image_default_link_type":"file","image_default_size":"thumbnail","show_additional_image_sizes":"true","show_exif_data":"","attachment_taxononmies":[""],"show_system_information":"","add_to_help":"","delete_orphaned_meta":""}'
 
@@ -102,7 +128,17 @@ wp --skip-plugins option update apcm_gc 0
 wp --skip-plugins rewrite flush
 
 # Install images
-wp --skip-plugins media import ./sample-images/* --user="usr${SITENAME}"
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    wp --skip-plugins media import ./sample-images/* --user="usr${SITENAME}"
+fi
 
 # Create link to adminer that can be accessible from http://site/adminer
-ln -rs ./vendor/dg/adminer-custom/ ./public/adminer
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    ln -rs ./vendor/dg/adminer-custom/ ./public/adminer
+fi
+
+echo "WordPress installation finished."
+if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+    echo "WP Admin Username: $ADMIN_USER"
+    echo "WP Admin Password: $ADMIN_PASS"
+fi
