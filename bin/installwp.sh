@@ -22,8 +22,8 @@ else
     mysql -u $DB_USER -p$DB_PASSWORD -e"GRANT ALL PRIVILEGES ON \`$SITENAME\`.* TO '$NEW_DB_USER'@'localhost';"
 
     # Now change .env with new values
-    replace -s DB_USER=root "DB_USER=$NEW_DB_USER" -- .env
-    replace -s DB_PASSWORD=vagrant "DB_PASSWORD=$NEW_DB_PASSWORD" -- .env
+    replace -s DB_USER=$DB_USER "DB_USER=$NEW_DB_USER" -- .env
+    replace -s DB_PASSWORD=$DB_PASSWORD "DB_PASSWORD=$NEW_DB_PASSWORD" -- .env
 fi
 
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
