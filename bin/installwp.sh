@@ -138,7 +138,7 @@ if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
 fi
 
 echo "WordPress installation finished."
-if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
+if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     echo "WP Admin Username: $ADMIN_USER"
     echo "WP Admin Password: $ADMIN_PASS"
 fi
