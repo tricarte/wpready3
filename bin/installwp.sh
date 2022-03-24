@@ -90,6 +90,7 @@ wp --skip-plugins plugin activate \
     clarity-ad-blocker \
     apcu-manager \
     surge \
+    fluent-smtp \
     gutenberg
 
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
