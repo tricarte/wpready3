@@ -91,6 +91,7 @@ wp --skip-plugins plugin activate \
     apcu-manager \
     surge \
     fluent-smtp \
+    log-http-requests \
     gutenberg
 
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then

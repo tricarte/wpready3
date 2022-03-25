@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e31d1132e18ba488f0fc042ecd70fa75",
+    "content-hash": "8dfc0d722fc5ac0abb5e705670cb9e9d",
     "packages": [
         {
             "name": "composer/installers",
@@ -792,6 +792,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/icon-block/"
+        },
+        {
+            "name": "wpackagist-plugin/log-http-requests",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/log-http-requests/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/log-http-requests.zip?timestamp=1631746954"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/log-http-requests/"
         },
         {
             "name": "wpackagist-plugin/passwords-evolved",
