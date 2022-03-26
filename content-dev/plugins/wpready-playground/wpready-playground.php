@@ -43,3 +43,9 @@ function playground_menu_link() {
     add_menu_page( 'Playground', 'Playground', 'edit_posts', WP_HOME . '/playground', '', 'dashicons-editor-code', 22 );
 }
 add_action( 'admin_menu', 'playground_menu_link' );
+
+function playground_flush() {
+    flush_rewrite_rules();
+}
+register_activation_hook( __FILE__, 'playground_flush' );
+register_deactivation_hook( __FILE__, 'playground_flush' );
