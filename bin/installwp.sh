@@ -51,7 +51,7 @@ if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     fi
 fi
 
-wp user update 1 --display_name="John Doe"
+wp user update 1 --display_name="John Doe" --user_nicename="john-doe" --nickname="Editor"
 
 wp option update permalink_structure "/%category%/%postname%/"
 
