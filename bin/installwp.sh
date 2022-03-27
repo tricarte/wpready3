@@ -5,6 +5,13 @@ mv .env.example .env
 SITENAME=${PWD##*/}
 replace -s directory-basename "$SITENAME" -- .env
 
+if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
+    echo "
+[HOST=$SITENAME]
+open_basedir = /home/$(whoami)/sites/$SITENAME:/tmp
+    " | sudo tee -a /etc/php/7.4/fpm/php.ini
+fi
+
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
     ADMIN_USER="usr${SITENAME}"
     ADMIN_PASS="pss${SITENAME}"
