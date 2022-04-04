@@ -101,6 +101,10 @@ wp --skip-plugins plugin activate \
     log-http-requests \
     gutenberg
 
+if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
+    wp --skip-plugins plugin activate patchstack
+fi
+
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
     wp --skip-plugins plugin activate \
         query-monitor \
