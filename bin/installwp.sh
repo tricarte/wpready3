@@ -102,7 +102,7 @@ wp --skip-plugins plugin activate \
     gutenberg
 
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
-    wp --skip-plugins plugin activate patchstack
+    wp --skip-plugins plugin activate patchstack opcache-manager
 fi
 
 if [[ -n "$XDG_CURRENT_DESKTOP" ]]; then
