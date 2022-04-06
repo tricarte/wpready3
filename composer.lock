@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c20ad19cf0db9d67a05aa23682b9938",
+    "content-hash": "fdf5a9bebff099d8939d72af05c79195",
     "packages": [
         {
             "name": "composer/installers",
@@ -810,24 +810,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/log-http-requests/"
-        },
-        {
-            "name": "wpackagist-plugin/opcache-manager",
-            "version": "2.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/opcache-manager/",
-                "reference": "tags/2.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/opcache-manager.2.6.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/opcache-manager/"
         },
         {
             "name": "wpackagist-plugin/passwords-evolved",
