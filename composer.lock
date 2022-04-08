@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdf5a9bebff099d8939d72af05c79195",
+    "content-hash": "423a4bc2ef23d44114106c6b49d5ba6c",
     "packages": [
         {
             "name": "composer/installers",
@@ -615,15 +615,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.3.4",
+            "version": "1.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "trunk"
+                "reference": "tags/1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.zip?timestamp=1643122239"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -939,15 +939,15 @@
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
-            "version": "1.5.0",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
-                "reference": "tags/1.5.0"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.1.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.2.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -957,15 +957,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "1.9.10",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/1.9.10"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
