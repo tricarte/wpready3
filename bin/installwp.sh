@@ -54,7 +54,8 @@ wp core install \
 # If this is a server, change fs permissions accordingly.
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     if [[ -d "/home/$(whoami)/sites/$SITENAME/public/content" ]]; then
-        chmod -R o+w "/home/$(whoami)/sites/$SITENAME/public/content"
+        # chmod -R o+w "/home/$(whoami)/sites/$SITENAME/public/content"
+        chown -R $(whoami):www-data "/home/$(whoami)/sites/$SITENAME/public/content"
     fi
 fi
 
