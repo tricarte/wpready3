@@ -5,6 +5,7 @@ mv .env.example .env
 SITENAME=${PWD##*/}
 replace -s directory-basename "$SITENAME" -- .env
 
+# TODO: php-fpm must be reloaded or restarted
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     echo "
 [HOST=$SITENAME]
