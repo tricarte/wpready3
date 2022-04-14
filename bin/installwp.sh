@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 # wpstarter copies custom-templates/.env.example to the root at installation.
 # So don't git add the .env.example file at the project root.
-mv .env.example .env
-SITENAME=${PWD##*/}
-replace -s directory-basename "$SITENAME" -- .env
+if [[ ! -f .env ]]; then
+    mv .env.example .env
+    SITENAME=${PWD##*/}
+    replace -s directory-basename "$SITENAME" -- .env
+fi
 
 eval $(grep DB_USER .env)
 eval $(grep DB_PASSWORD .env)
