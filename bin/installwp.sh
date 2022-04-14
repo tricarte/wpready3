@@ -5,6 +5,19 @@ mv .env.example .env
 SITENAME=${PWD##*/}
 replace -s directory-basename "$SITENAME" -- .env
 
+eval $(grep DB_USER .env)
+eval $(grep DB_PASSWORD .env)
+if ! mysql -u$DB_USER -p$DB_PASSWORD -e"quit" > /dev/null 2>&1; then
+    echo "Cannot connect to DB using credentials in .env file in site root."
+    echo "Credentials being used:"
+    echo "USER: $DB_USER"
+    echo "PASSWORD: $DB_PASSWORD"
+    echo ""
+    echo "After setting correct values in .env file"
+    echo "run \"composer installwp\" again in site's root directory to continue installation."
+    exit 1
+fi
+
 # TODO: php-fpm must be reloaded or restarted
 if [[ -z "$XDG_CURRENT_DESKTOP" ]]; then
     echo "
