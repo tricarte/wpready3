@@ -89,7 +89,6 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "@installwp"
         ],
         "post-update-cmd": [
         ],
