@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: wpready playground
+Plugin Name: WPREADY Playground
 Plugin URI:
-Description:
-Version:
-Author:
-Author URI:
+Description: A playground URL ( /playground ) that you can use as a virtual page.
+Version: 0.1.0
+Author: tricarte
+Author URI: https://github/tricarte
 License:
 License URI:
 */
