@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "composer/installers": "^1.11",
-        "johnpbloch/wordpress": "^5.7",
+        "johnpbloch/wordpress": "^6.0",
         "wecodemore/wpstarter": "^3",
         "dg/adminer-custom": "^1.28",
         "wpackagist-plugin/custom-post-type-permalinks":"^3.4.4",
