@@ -615,15 +615,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.4",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "tags/1.4"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -759,15 +759,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "13.7.2",
+            "version": "13.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/13.7.2"
+                "reference": "tags/13.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.13.7.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.13.7.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
