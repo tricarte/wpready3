@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51a4b15b535b85c624650583182c6f9f",
+    "content-hash": "a4698c6e0447cceedcb877d1a842a8ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -1082,22 +1082,22 @@
             "homepage": "https://wordpress.org/plugins/wp-mailhog-smtp/"
         },
         {
-            "name": "wpackagist-theme/tt1-blocks",
-            "version": "0.4.8",
+            "name": "wpackagist-theme/blockbase",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/tt1-blocks/",
-                "reference": "0.4.8"
+                "url": "https://themes.svn.wordpress.org/blockbase/",
+                "reference": "3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/tt1-blocks.0.4.8.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.0.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/tt1-blocks/"
+            "homepage": "https://wordpress.org/themes/blockbase/"
         }
     ],
     "packages-dev": [],
