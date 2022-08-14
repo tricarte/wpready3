@@ -23,6 +23,7 @@
         "wpackagist-plugin/wayfinder":"^1.0.7",
         "wpackagist-plugin/rest-api-toolbox":"^1.4.3",
         "wpackagist-plugin/icon-block":"^1.0.0",
+        "wpackagist-plugin/async-javascript":"^2.21.08.31",
         "wpackagist-plugin/gutenberg":"*",
         "wpackagist-theme/blockbase":"^3.0.5",
         "wpackagist-plugin/block-xray-attributes":"^1.1.1",

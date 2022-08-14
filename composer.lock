@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4698c6e0447cceedcb877d1a842a8ac",
+    "content-hash": "a3eeb686a01b7e2837bc1d57f5777015",
     "packages": [
         {
             "name": "composer/installers",
@@ -612,6 +612,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/apcu-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/async-javascript",
+            "version": "2.21.08.31",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/async-javascript/",
+                "reference": "tags/2.21.08.31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/async-javascript.2.21.08.31.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/async-javascript/"
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
