@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf611a8b03bba5ceffe69f0898311592",
+    "content-hash": "fb5c15397e58768f0649ee3b6451fabf",
     "packages": [
         {
             "name": "composer/installers",
@@ -512,17 +512,11 @@
         },
         {
             "name": "wecodemore/wpstarter",
-            "version": "3.0.0-beta.8",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wecodemore/wpstarter.git",
-                "reference": "ce4032f7524a64008794a6829d2e0212c4cbc42a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wecodemore/wpstarter/zipball/ce4032f7524a64008794a6829d2e0212c4cbc42a",
-                "reference": "ce4032f7524a64008794a6829d2e0212c4cbc42a",
-                "shasum": ""
+                "reference": "be41c669b033ec7fe7fbff483ed0e854ec8e7b00"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2",
@@ -551,6 +545,7 @@
                 "vimeo/psalm": "^4.13.1",
                 "wp-cli/wp-cli": "v2.5.0"
             },
+            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "WeCodeMore\\WpStarter\\ComposerPlugin",
@@ -567,7 +562,34 @@
                     "src/Env/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "WeCodeMore\\WpStarter\\": "src/",
+                    "WeCodeMore\\WpStarter\\Tests\\": "tests/src/",
+                    "WeCodeMore\\WpStarter\\Tests\\Unit\\": "tests/unit/",
+                    "WeCodeMore\\WpStarter\\Tests\\Integration\\": "tests/integration/"
+                }
+            },
+            "scripts": {
+                "cs": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs"
+                ],
+                "phpcompat": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -p . --standard=PHPCompatibility --ignore=*/vendor/*,*tests/fixtures/* --extensions=php --basepath=./ --runtime-set testVersion 7.1-"
+                ],
+                "psalm": [
+                    "@php ./vendor/vimeo/psalm/psalm"
+                ],
+                "tests:unit": [
+                    "@php ./vendor/phpunit/phpunit/phpunit --testsuite=unit"
+                ],
+                "tests:unit:no-cov": [
+                    "@php ./vendor/phpunit/phpunit/phpunit --testsuite=unit --no-coverage"
+                ],
+                "tests:integration": [
+                    "@php ./vendor/phpunit/phpunit/phpunit --testsuite=integration --no-coverage"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -593,7 +615,7 @@
                 "issues": "https://github.com/wecodemore/wpstarter/issues",
                 "source": "https://github.com/wecodemore/wpstarter"
             },
-            "time": "2021-11-25T15:51:49+00:00"
+            "time": "2022-08-25T14:48:25+00:00"
         },
         {
             "name": "wpackagist-plugin/apcu-manager",
@@ -1139,7 +1161,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "wecodemore/wpstarter": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

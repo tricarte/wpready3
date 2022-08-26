@@ -8,7 +8,7 @@
     "require": {
         "composer/installers": "^1.11",
         "johnpbloch/wordpress": "^6.0",
-        "wecodemore/wpstarter": "^3",
+        "wecodemore/wpstarter": "dev-dev",
         "dg/adminer-custom": "^1.28",
         "wpackagist-plugin/custom-post-type-permalinks":"^3.4.4",
         "wpackagist-plugin/custom-post-type-ui":"^1.9.2",
@@ -72,6 +72,10 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/wecodemore/wpstarter.git"
         },
         {
             "type":"package",
