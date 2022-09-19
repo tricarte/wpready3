@@ -709,15 +709,15 @@
         },
         {
             "name": "wpackagist-plugin/clarity-ad-blocker",
-            "version": "1.3.220731",
+            "version": "1.3.220913",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/clarity-ad-blocker/",
-                "reference": "tags/1.3.220731"
+                "reference": "tags/1.3.220913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/clarity-ad-blocker.1.3.220731.zip"
+                "url": "https://downloads.wordpress.org/plugin/clarity-ad-blocker.1.3.220913.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -763,15 +763,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.12.1",
+            "version": "1.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.12.1"
+                "reference": "tags/1.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.12.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.0.1",
+            "version": "14.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.0.1"
+                "reference": "tags/14.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -925,15 +925,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.9.0",
+            "version": "3.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/3.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.10.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1033,15 +1033,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.0.2"
+                "reference": "tags/2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
