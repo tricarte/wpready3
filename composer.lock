@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb5c15397e58768f0649ee3b6451fabf",
+    "content-hash": "5a3ff7d06923ef1c66aec1b9600bf933",
     "packages": [
         {
             "name": "composer/installers",
@@ -709,15 +709,15 @@
         },
         {
             "name": "wpackagist-plugin/clarity-ad-blocker",
-            "version": "1.3.220913",
+            "version": "1.3.221009",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/clarity-ad-blocker/",
-                "reference": "tags/1.3.220913"
+                "reference": "tags/1.3.221009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/clarity-ad-blocker.1.3.220913.zip"
+                "url": "https://downloads.wordpress.org/plugin/clarity-ad-blocker.1.3.221009.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.2.0",
+            "version": "14.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.2.0"
+                "reference": "tags/14.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -868,6 +868,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/log-http-requests/"
+        },
+        {
+            "name": "wpackagist-plugin/lorem-ipsum-blocks",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/lorem-ipsum-blocks/",
+                "reference": "tags/1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/lorem-ipsum-blocks.1.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/lorem-ipsum-blocks/"
         },
         {
             "name": "wpackagist-plugin/passwords-evolved",
@@ -1087,7 +1105,7 @@
         },
         {
             "name": "wpackagist-plugin/wayfinder",
-            "version": "1.1.3",
+            "version": "1.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wayfinder/",
@@ -1095,7 +1113,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wayfinder.zip?timestamp=1643261507"
+                "url": "https://downloads.wordpress.org/plugin/wayfinder.zip?timestamp=1665157886"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
