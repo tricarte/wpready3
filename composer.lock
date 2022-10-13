@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a3ff7d06923ef1c66aec1b9600bf933",
+    "content-hash": "20e8be2f119254f8837d499fc6bb8abf",
     "packages": [
         {
             "name": "composer/installers",
@@ -1138,6 +1138,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/widget-shortcode/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-console",
+            "version": "2.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-console/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-console.zip?timestamp=1659275561"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-console/"
         },
         {
             "name": "wpackagist-plugin/wp-mailhog-smtp",
