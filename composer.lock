@@ -191,20 +191,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.0.2",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7"
+                "reference": "916a0d60b397878f9292bc1e89718da04eb59e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7",
-                "reference": "6c3d7d1a4ddb3b27e6f3ca4b2018b0150d7221b7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/916a0d60b397878f9292bc1e89718da04eb59e28",
+                "reference": "916a0d60b397878f9292bc1e89718da04eb59e28",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.0.2",
+                "johnpbloch/wordpress-core": "6.0.3",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -233,20 +233,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2022-08-30T17:46:21+00:00"
+            "time": "2022-10-17T21:17:26+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.0.2",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "aa7b334880fd8158abe64469e71570bd8815f273"
+                "reference": "f07b5dfd83fb728b0877ee48a4d792624338aa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/aa7b334880fd8158abe64469e71570bd8815f273",
-                "reference": "aa7b334880fd8158abe64469e71570bd8815f273",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/f07b5dfd83fb728b0877ee48a4d792624338aa8e",
+                "reference": "f07b5dfd83fb728b0877ee48a4d792624338aa8e",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +254,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.0.2"
+                "wordpress/core-implementation": "6.0.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -281,7 +281,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-08-30T17:46:17+00:00"
+            "time": "2022-10-17T21:17:21+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.3.0",
+            "version": "14.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.3.0"
+                "reference": "tags/14.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -835,15 +835,15 @@
         },
         {
             "name": "wpackagist-plugin/icon-block",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/icon-block/",
-                "reference": "tags/1.3.1"
+                "reference": "tags/1.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/icon-block.1.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/icon-block.1.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1033,15 +1033,15 @@
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
-            "version": "3.2.1",
+            "version": "3.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
-                "reference": "tags/3.2.1"
+                "reference": "tags/3.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.3.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.3.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1177,15 +1177,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.0.5",
+            "version": "3.0.6",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.0.5"
+                "reference": "3.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.0.5.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.0.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
