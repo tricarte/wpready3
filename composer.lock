@@ -727,15 +727,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.2.2"
+                "reference": "tags/1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1033,15 +1033,15 @@
         },
         {
             "name": "wpackagist-plugin/rollback-update-failure",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
-                "reference": "tags/3.3.0"
+                "reference": "tags/3.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.3.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.3.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
