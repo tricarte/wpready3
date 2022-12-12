@@ -159,16 +159,16 @@
         },
         {
             "name": "dg/adminer-custom",
-            "version": "v1.28.1",
+            "version": "v1.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/adminer-custom.git",
-                "reference": "65cb7d1fc0249375064aaeeafd265141428fe7e1"
+                "reference": "2ddd096ca2e62b506358c8112700942ce6dfa5f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/65cb7d1fc0249375064aaeeafd265141428fe7e1",
-                "reference": "65cb7d1fc0249375064aaeeafd265141428fe7e1",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/2ddd096ca2e62b506358c8112700942ce6dfa5f4",
+                "reference": "2ddd096ca2e62b506358c8112700942ce6dfa5f4",
                 "shasum": ""
             },
             "type": "library",
@@ -185,9 +185,9 @@
                 "sqlite"
             ],
             "support": {
-                "source": "https://github.com/dg/adminer-custom/tree/v1.28.1"
+                "source": "https://github.com/dg/adminer-custom/tree/v1.28.2"
             },
-            "time": "2021-09-16T10:15:05+00:00"
+            "time": "2022-12-10T11:47:36+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.7.0",
+            "version": "14.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.7.0"
+                "reference": "tags/14.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
