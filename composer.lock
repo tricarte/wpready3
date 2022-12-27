@@ -763,15 +763,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.13.2",
+            "version": "1.13.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.13.2"
+                "reference": "tags/1.13.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.13.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.13.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.7.1",
+            "version": "14.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.7.1"
+                "reference": "tags/14.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1177,15 +1177,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.1.2",
+            "version": "3.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.1.2"
+                "reference": "3.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.2.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
