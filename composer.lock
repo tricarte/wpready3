@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "002fbc75889ec5fb361bb9a3cecd0c44",
+    "content-hash": "6d7337953fd19bf08c065abbb1c348e2",
     "packages": [
         {
             "name": "composer/installers",
@@ -1030,24 +1030,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
-        },
-        {
-            "name": "wpackagist-plugin/rollback-update-failure",
-            "version": "3.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rollback-update-failure/",
-                "reference": "tags/3.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rollback-update-failure.3.1.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rollback-update-failure/"
         },
         {
             "name": "wpackagist-plugin/safe-svg",
