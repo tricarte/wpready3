@@ -27,7 +27,7 @@
         "wpackagist-plugin/gutenberg":"*",
         "wpackagist-theme/blockbase":"^3.0.5",
         "wpackagist-plugin/block-xray-attributes":"^1.1.1",
-        "wpackagist-plugin/rollback-update-failure":"^3.1.1",
+        "wpackagist-plugin/rollback-update-failure":"3.1.1",
         "wpackagist-plugin/reveal-ids-for-wp-admin-25":"^1.5.4",
         "wpackagist-plugin/show-hooks":"^0.4",
         "wpackagist-plugin/wp-mailhog-smtp":"^1.0.1",
