@@ -655,15 +655,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "tags/1.4.1"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.zip?timestamp=1673459493"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -817,15 +817,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "14.9.0",
+            "version": "14.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/14.9.0"
+                "reference": "tags/14.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.14.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1087,15 +1087,15 @@
         },
         {
             "name": "wpackagist-plugin/surge",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/surge/",
-                "reference": "trunk"
+                "reference": "tags/1.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/surge.zip?timestamp=1650357131"
+                "url": "https://downloads.wordpress.org/plugin/surge.1.0.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1177,15 +1177,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.1.4"
+                "reference": "3.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.4.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
