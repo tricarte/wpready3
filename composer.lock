@@ -159,16 +159,16 @@
         },
         {
             "name": "dg/adminer-custom",
-            "version": "v1.28.2",
+            "version": "v1.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/adminer-custom.git",
-                "reference": "2ddd096ca2e62b506358c8112700942ce6dfa5f4"
+                "reference": "b46e3987f9dd76e58b59af44fc9e801d2f01294c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/2ddd096ca2e62b506358c8112700942ce6dfa5f4",
-                "reference": "2ddd096ca2e62b506358c8112700942ce6dfa5f4",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/b46e3987f9dd76e58b59af44fc9e801d2f01294c",
+                "reference": "b46e3987f9dd76e58b59af44fc9e801d2f01294c",
                 "shasum": ""
             },
             "type": "library",
@@ -185,9 +185,9 @@
                 "sqlite"
             ],
             "support": {
-                "source": "https://github.com/dg/adminer-custom/tree/v1.28.2"
+                "source": "https://github.com/dg/adminer-custom/tree/v1.29.0"
             },
-            "time": "2022-12-10T11:47:36+00:00"
+            "time": "2023-03-11T14:11:28+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -339,16 +339,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "1ee04c65529dea5d8744774d474e7cbd2f1206d3"
+                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/1ee04c65529dea5d8744774d474e7cbd2f1206d3",
-                "reference": "1ee04c65529dea5d8744774d474e7cbd2f1206d3",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
+                "reference": "e2d1534420bd723d0ef5aec58a22c5fe60ce6f5e",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +386,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.2.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.2.1"
             },
             "funding": [
                 {
@@ -402,20 +402,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-25T10:21:52+00:00"
+            "time": "2023-03-01T10:25:55+00:00"
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "38190ba62566afa26ca723a795d0a004e061bd2a"
+                "reference": "c45210b1c43d2d24e263eefe72e8162754dd4c9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/38190ba62566afa26ca723a795d0a004e061bd2a",
-                "reference": "38190ba62566afa26ca723a795d0a004e061bd2a",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/c45210b1c43d2d24e263eefe72e8162754dd4c9f",
+                "reference": "c45210b1c43d2d24e263eefe72e8162754dd4c9f",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 "environment"
             ],
             "support": {
-                "source": "https://github.com/symfony/dotenv/tree/v5.4.19"
+                "source": "https://github.com/symfony/dotenv/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -473,7 +473,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-14T08:03:56+00:00"
         },
         {
             "name": "tricarte/admin-menu-search",
@@ -516,7 +516,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wecodemore/wpstarter.git",
-                "reference": "d4996e8c33ef7898896c6810f6e039d8c92a6f6a"
+                "reference": "54f7a9528ba6cff9b3c8f3c3c47dfc7eb8c35f13"
             },
             "require": {
                 "composer-plugin-api": "^1.10 || ^2",
@@ -529,7 +529,7 @@
                 "ext-mbstring": "*",
                 "ext-mysqli": "*",
                 "ext-spl": "*",
-                "php": ">=7.1",
+                "php": ">=7.1 < 8.3",
                 "symfony/dotenv": "^3.4 || ^5"
             },
             "require-dev": {
@@ -551,7 +551,8 @@
                 "branch-alias": {
                     "dev-master": "2.x-dev",
                     "dev-dev": "3.x-dev",
-                    "dev-version-2": "2.x-dev"
+                    "dev-version-2": "2.x-dev",
+                    "dev-version-3": "3.x-dev"
                 }
             },
             "autoload": {
@@ -573,9 +574,6 @@
                 "cs": [
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs"
                 ],
-                "phpcompat": [
-                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -p . --standard=PHPCompatibility --ignore=*/vendor/*,*tests/fixtures/* --extensions=php --basepath=./ --runtime-set testVersion 7.1-"
-                ],
                 "psalm": [
                     "@php ./vendor/vimeo/psalm/psalm --no-suggestions --find-unused-psalm-suppress --no-diff --no-cache --no-file-cache"
                 ],
@@ -587,6 +585,11 @@
                 ],
                 "tests:integration": [
                     "@php ./vendor/phpunit/phpunit/phpunit --testsuite=integration --no-coverage"
+                ],
+                "qa": [
+                    "@cs",
+                    "@psalm",
+                    "@tests:unit:no-cov"
                 ]
             },
             "license": [
@@ -614,19 +617,19 @@
                 "issues": "https://github.com/wecodemore/wpstarter/issues",
                 "source": "https://github.com/wecodemore/wpstarter"
             },
-            "time": "2023-02-27T06:32:12+00:00"
+            "time": "2023-03-18T01:36:10+00:00"
         },
         {
             "name": "wpackagist-plugin/apcu-manager",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/apcu-manager/",
-                "reference": "tags/3.5.0"
+                "reference": "tags/3.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/apcu-manager.3.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/apcu-manager.3.5.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -726,15 +729,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.6.0",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.6.0"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +819,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "15.2.1",
+            "version": "15.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/15.2.1"
+                "reference": "tags/15.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.15.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.15.4.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -834,15 +837,15 @@
         },
         {
             "name": "wpackagist-plugin/icon-block",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/icon-block/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/icon-block.1.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/icon-block.1.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -942,15 +945,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.11.2",
+            "version": "3.12.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.11.2"
+                "reference": "tags/3.12.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.11.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -978,15 +981,15 @@
         },
         {
             "name": "wpackagist-plugin/reusable-blocks-extended",
-            "version": "0.9",
+            "version": "0.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/reusable-blocks-extended/",
-                "reference": "tags/0.9"
+                "reference": "tags/0.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/reusable-blocks-extended.0.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/reusable-blocks-extended.0.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1050,15 +1053,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "2.0.3",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
