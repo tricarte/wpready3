@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62bb39b69702380ee00a2f52bb7ff2a5",
+    "content-hash": "30efb1a59ac0717989cdb9dbe7287bee",
     "packages": [
         {
             "name": "composer/installers",
@@ -512,11 +512,11 @@
         },
         {
             "name": "wecodemore/wpstarter",
-            "version": "dev-dev",
+            "version": "3.0.0-beta.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wecodemore/wpstarter.git",
-                "reference": "54f7a9528ba6cff9b3c8f3c3c47dfc7eb8c35f13"
+                "reference": "2c1ca15582661cc5b0b04bd108d3d5b7e3f092a3"
             },
             "require": {
                 "composer-plugin-api": "^1.10 || ^2",
@@ -544,7 +544,6 @@
                 "vimeo/psalm": "^4.30.0",
                 "wp-cli/wp-cli": "^2.7.1"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "WeCodeMore\\WpStarter\\ComposerPlugin",
@@ -574,6 +573,9 @@
                 "cs": [
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs"
                 ],
+                "phpcompat": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -p . --standard=PHPCompatibility --ignore=*/vendor/*,*tests/fixtures/* --extensions=php --basepath=./ --runtime-set testVersion 7.1-"
+                ],
                 "psalm": [
                     "@php ./vendor/vimeo/psalm/psalm --no-suggestions --find-unused-psalm-suppress --no-diff --no-cache --no-file-cache"
                 ],
@@ -585,11 +587,6 @@
                 ],
                 "tests:integration": [
                     "@php ./vendor/phpunit/phpunit/phpunit --testsuite=integration --no-coverage"
-                ],
-                "qa": [
-                    "@cs",
-                    "@psalm",
-                    "@tests:unit:no-cov"
                 ]
             },
             "license": [
@@ -617,7 +614,7 @@
                 "issues": "https://github.com/wecodemore/wpstarter/issues",
                 "source": "https://github.com/wecodemore/wpstarter"
             },
-            "time": "2023-03-18T01:36:10+00:00"
+            "time": "2023-03-01T16:51:27+00:00"
         },
         {
             "name": "wpackagist-plugin/apcu-manager",
@@ -945,15 +942,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.0",
+            "version": "3.12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.0"
+                "reference": "tags/3.12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1199,9 +1196,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "wecodemore/wpstarter": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

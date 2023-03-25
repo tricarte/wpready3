@@ -8,7 +8,7 @@
     "require": {
         "composer/installers": "^1.11",
         "johnpbloch/wordpress": "^6.0",
-        "wecodemore/wpstarter": "dev-dev",
+        "wecodemore/wpstarter": "^3.0.0-beta.13",
         "dg/adminer-custom": "^1.28",
         "wpackagist-plugin/custom-post-type-permalinks":"^3.4.4",
         "wpackagist-plugin/custom-post-type-ui":"^1.9.2",
