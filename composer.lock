@@ -726,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.8.0"
+                "reference": "tags/1.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "15.4.0",
+            "version": "15.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/15.4.0"
+                "reference": "tags/15.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.15.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.15.6.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1050,15 +1050,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.1.0"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1176,15 +1176,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.1.7",
+            "version": "3.1.9",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.1.7"
+                "reference": "3.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.7.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
