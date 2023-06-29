@@ -726,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.12.0",
+            "version": "1.13.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.12.0"
+                "reference": "tags/1.13.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.13.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "15.9.1",
+            "version": "16.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/15.9.1"
+                "reference": "tags/16.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.15.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.16.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
