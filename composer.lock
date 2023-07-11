@@ -726,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.13.0",
+            "version": "1.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.13.0"
+                "reference": "tags/1.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.13.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -798,15 +798,15 @@
         },
         {
             "name": "wpackagist-plugin/fluent-smtp",
-            "version": "2.2.4",
+            "version": "2.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fluent-smtp/",
-                "reference": "tags/2.2.4"
+                "reference": "tags/2.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "16.1.0",
+            "version": "16.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/16.1.0"
+                "reference": "tags/16.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.16.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.16.1.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -906,15 +906,15 @@
         },
         {
             "name": "wpackagist-plugin/patchstack",
-            "version": "2.1.24",
+            "version": "2.1.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/patchstack/",
-                "reference": "tags/2.1.24"
+                "reference": "tags/2.1.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/patchstack.2.1.24.zip"
+                "url": "https://downloads.wordpress.org/plugin/patchstack.2.1.25.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -942,15 +942,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.3",
+            "version": "3.13.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.3"
+                "reference": "tags/3.13.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.13.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -996,15 +996,15 @@
         },
         {
             "name": "wpackagist-plugin/reveal-ids-for-wp-admin-25",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/reveal-ids-for-wp-admin-25/",
-                "reference": "tags/1.5.4"
+                "reference": "tags/1.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/reveal-ids-for-wp-admin-25.1.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/reveal-ids-for-wp-admin-25.1.5.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1158,15 +1158,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.1.10",
+            "version": "3.1.12",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.1.10"
+                "reference": "3.1.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.10.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.12.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
