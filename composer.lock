@@ -406,16 +406,16 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.4.30",
+            "version": "v5.4.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "ceed2cd28442adcf3679a9a82dacd45baeefc458"
+                "reference": "07d75571cc7efc88f1aae96eddc5f671826c7327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/ceed2cd28442adcf3679a9a82dacd45baeefc458",
-                "reference": "ceed2cd28442adcf3679a9a82dacd45baeefc458",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/07d75571cc7efc88f1aae96eddc5f671826c7327",
+                "reference": "07d75571cc7efc88f1aae96eddc5f671826c7327",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 "environment"
             ],
             "support": {
-                "source": "https://github.com/symfony/dotenv/tree/v5.4.30"
+                "source": "https://github.com/symfony/dotenv/tree/v5.4.34"
             },
             "funding": [
                 {
@@ -473,7 +473,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-26T16:37:39+00:00"
+            "time": "2023-12-28T12:17:46+00:00"
         },
         {
             "name": "tricarte/admin-menu-search",
@@ -726,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "1.13.7",
+            "version": "1.13.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/1.13.7"
+                "reference": "tags/1.13.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.13.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.1.13.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -798,15 +798,15 @@
         },
         {
             "name": "wpackagist-plugin/fluent-smtp",
-            "version": "2.2.6",
+            "version": "2.2.71",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fluent-smtp/",
-                "reference": "tags/2.2.6"
+                "reference": "tags/2.2.71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.71.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "17.2.3",
+            "version": "17.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/17.2.3"
+                "reference": "tags/17.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.17.2.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.17.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -834,15 +834,15 @@
         },
         {
             "name": "wpackagist-plugin/icon-block",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/icon-block/",
-                "reference": "tags/1.6.0"
+                "reference": "tags/1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/icon-block.1.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/icon-block.1.7.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
