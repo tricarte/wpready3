@@ -339,16 +339,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
+                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
-                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
+                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.4-dev"
+                    "dev-main": "3.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -386,7 +386,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.4.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.0"
             },
             "funding": [
                 {
@@ -402,20 +402,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-23T14:45:45+00:00"
+            "time": "2024-04-18T09:32:20+00:00"
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.4.35",
+            "version": "v5.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "4de488440104b99d2e7c0717ee432e760b061e32"
+                "reference": "9e29d603b2e21d82d0cdfa7b75c7303022e0b971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/4de488440104b99d2e7c0717ee432e760b061e32",
-                "reference": "4de488440104b99d2e7c0717ee432e760b061e32",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/9e29d603b2e21d82d0cdfa7b75c7303022e0b971",
+                "reference": "9e29d603b2e21d82d0cdfa7b75c7303022e0b971",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 "environment"
             ],
             "support": {
-                "source": "https://github.com/symfony/dotenv/tree/v5.4.35"
+                "source": "https://github.com/symfony/dotenv/tree/v5.4.39"
             },
             "funding": [
                 {
@@ -473,7 +473,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T13:51:25+00:00"
+            "time": "2024-04-18T08:26:06+00:00"
         },
         {
             "name": "tricarte/admin-menu-search",
@@ -654,15 +654,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.4.5",
+            "version": "1.4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "tags/1.4.5"
+                "reference": "tags/1.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -798,15 +798,15 @@
         },
         {
             "name": "wpackagist-plugin/fluent-smtp",
-            "version": "2.2.72",
+            "version": "2.2.73",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fluent-smtp/",
-                "reference": "tags/2.2.72"
+                "reference": "tags/2.2.73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.72.zip"
+                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.73.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "18.1.0",
+            "version": "18.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/18.1.0"
+                "reference": "tags/18.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.18.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.18.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -960,15 +960,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.15.0",
+            "version": "3.16.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.15.0"
+                "reference": "tags/3.16.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.15.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.16.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
