@@ -654,15 +654,15 @@
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/better-search-replace/",
-                "reference": "tags/1.4.6"
+                "reference": "tags/1.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -816,15 +816,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "18.3.0",
+            "version": "18.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/18.3.0"
+                "reference": "tags/18.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.18.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.18.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -960,15 +960,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.16.2",
+            "version": "3.16.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.16.2"
+                "reference": "tags/3.16.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.16.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.16.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
