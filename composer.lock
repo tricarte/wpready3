@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30522a06aea3973f56a0a1b32fa523f5",
+    "content-hash": "4e0e6a8793fcb091f5994ae3ab04b850",
     "packages": [
         {
             "name": "composer/installers",
@@ -651,6 +651,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/async-javascript/"
+        },
+        {
+            "name": "wpackagist-plugin/attachment-taxonomies",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/attachment-taxonomies/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/attachment-taxonomies.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/attachment-taxonomies/"
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
