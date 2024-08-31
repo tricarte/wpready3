@@ -834,15 +834,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "19.0.0",
+            "version": "19.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/19.0.0"
+                "reference": "tags/19.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.19.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.19.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1086,15 +1086,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "2.2.5",
+            "version": "2.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.2.5"
+                "reference": "tags/2.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.2.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.2.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
